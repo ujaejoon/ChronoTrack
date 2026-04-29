@@ -154,14 +154,8 @@ All models were trained using 2x NVIDIA RTX 4090 or RTX 3090 GPUs.
 # KITTI - Car
 python main.py configs/kitti/chronotrack_kitti_car.yaml --gpus 0 1 --phase train
 
-# KITTI - Pedestrian
-python main.py configs/kitti/chronotrack_kitti_ped.yaml --gpus 0 1 --phase train
-
 # NuScenes - Car
 python main.py configs/nuscenes/chronotrack_nuscenes_car.yaml --gpus 0 1 --phase train
-
-# Waymo - Vehicle
-python main.py configs/waymo/chronotrack_waymo_vehicle.yaml --gpus 0 1 --phase train
 ```
 
 **Arguments:**
