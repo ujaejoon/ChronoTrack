@@ -30,8 +30,6 @@ Furthermore, point-level storage grows proportionally with memory length, making
 
 - **Memory Cycle Consistency Loss (L_MCC).** A two-step cyclic walk — memory tokens → scene points → memory tokens — is performed via softmax cosine similarity. A cycle-consistency cross-entropy term penalizes tokens that fail to return to themselves, while a foreground affinity term encourages tokens to specialize in target-relevant regions. Together these losses push the tokens to encode diverse, target-specific semantics.
 
-ChronoTrack achieves state-of-the-art performance on KITTI (Mean 71.8 / 90.1), NuScenes (59.7 / 72.7), and Waymo (48.4 / 63.9) while running at **42 FPS** on a single RTX 4090.
-
 ---
 
 ## Installation
